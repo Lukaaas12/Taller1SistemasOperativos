@@ -22,3 +22,21 @@ El programa funciona bajo un ciclo REPL y mapea los requerimientos mediante las 
 Ejecute el siguiente comando en la terminal para compilar el archivo fuente:
 ```bash
 gcc -Wall -Wextra -o mi_shell src/mi_shell.c
+```
+### 2. Ejecución
+Para iniciar la shell, ejecute:
+
+```bash
+./mi_shell
+```
+### 3. Comandos de prueba
+
+```bash
+ls -la /tmp
+```
+```bash
+comando_falso_test
+```
+```bash
+exit
+```
