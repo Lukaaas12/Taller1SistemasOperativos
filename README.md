@@ -6,7 +6,6 @@ Este repositorio contiene la implementación de un intérprete de comandos bási
 * Felipe Zuñiga
 * Lukas Alvarado
 * Gustavo Fernandez
-* Benjamin Sepulveda
   
 
 ##  Arquitectura y Syscalls Utilizadas
