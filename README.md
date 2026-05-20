@@ -6,6 +6,8 @@ Este repositorio contiene la implementación de un intérprete de comandos bási
 * Felipe Zuñiga
 * Lukas Alvarado
 * Gustavo Fernandez
+* Benjamin Sepulveda
+  
 
 ##  Arquitectura y Syscalls Utilizadas
 El programa funciona bajo un ciclo REPL y mapea los requerimientos mediante las siguientes llamadas al sistema:
