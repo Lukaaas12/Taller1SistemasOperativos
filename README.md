@@ -1,13 +1,13 @@
 # Taller 1: Shell Simple en Linux
 
-Este repositorio contiene la implementación de un intérprete de comandos básico en lenguaje C para la asignatura **Sistemas Operativos**.
+Este repositorio contiene la implementación de un intérprete de comandos básico en lenguaje C para el Taller 1 de **Sistemas Operativos**.
 
-## 👥 Integrantes
+##  Integrantes
 * Felipe Zuñiga
 * Lukas Alvarado
 * Gustavo Fernandez
 
-## 🛠️ Arquitectura y Syscalls Utilizadas
+##  Arquitectura y Syscalls Utilizadas
 El programa funciona bajo un ciclo REPL y mapea los requerimientos mediante las siguientes llamadas al sistema:
 * **Prompt:** Imprime `mi_shell>` y vacía el buffer. Internamente interactúa con la syscall `write()`.
 * **Lectura y Parseo:** Usa `getline()` (asociada a `read()`) y procesa argumentos de forma dinámica con `strtok()` y `realloc()`.
@@ -16,7 +16,7 @@ El programa funciona bajo un ciclo REPL y mapea los requerimientos mediante las 
 * **Líneas Vacías:** Si se presiona Enter, se valida con `strcmp()` y un `continue` evita bifurcar procesos en el Kernel.
 * **Ejecución Concurrente:** Crea un proceso hijo con `fork()`, reemplaza su imagen con `execvp()` y el padre espera en foreground usando `waitpid()`.
 
-## 🚀 Compilación y Ejecución (Google Cloud Shell)
+##  Compilación y Ejecución (Google Cloud Shell)
 
 ### 1. Compilación
 Ejecute el siguiente comando en la terminal para compilar el archivo fuente:
